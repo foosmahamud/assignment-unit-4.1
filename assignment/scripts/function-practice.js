@@ -9,8 +9,11 @@ function hello() {
   return 'Hello World!';
 }
 // Call the function to test
-console.log('Test - should say "Hello World!"', hello());
+for (let i = 2; i <= 10; i += 2) {
+  console.log(i);
 
+console.log('Test - should say "Hello World!"', hello());
+}
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
