@@ -123,18 +123,13 @@ function isFirstLetter(letter, string) {
 
 }
 
-function isFirstLetter(letter, string) {
-  
-  if (string.length ====0) {
-     
-    return false;
-  }
-  
-  return string[0] ==== letter;
-}
-console.log(isFirstLetter('P', 'pizza'));
-console.log(isFirstLetter('H', 'Hello'));
-console.log(isFirstLetter('A', ''));
+//function isFirstLetter(letter, string) {
+  //return string [0] ==== letter;
+//}
+
+//console.log(isFirstLetter('P', 'pizza'));
+//console.log(isFirstLetter('H', 'Hello'));
+//console.log(isFirstLetter('A', ''));
 
 // 9. Function to return the sum of all numbers in an array
 function sumAll(array) {
